@@ -9,11 +9,11 @@ int main() {
     std::cin >> n;
 
 
-    if (n % 2 == 0) {
-        std::cout << n << " the number is even.";
+    if (n >= 0) {
+        std::cout << n << " the number is positive.";
     }
     else {
-        std::cout << n << " the number is not even.";
+        std::cout << n << " the number is negative.";
     }
 
     return 0;

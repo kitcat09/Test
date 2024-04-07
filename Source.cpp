@@ -1,19 +1,19 @@
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
 int main() {
-    
     int n;
-    std::cout << "¬ведите число: ";
+    std::cout << "Enter the number: ";
     std::cin >> n;
 
 
     if (n % 2 == 0) {
-        std::cout << n << " €вл€етс€ четным.";
+        std::cout << n << " the number is even.";
     }
     else {
-        std::cout << n << " €вл€етс€ нечетным";
+        std::cout << n << " the number is not even.";
     }
 
     return 0;
